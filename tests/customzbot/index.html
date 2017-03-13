@@ -74,14 +74,29 @@
       </nav>
     </div>
   </section>
-    <article class="message is-warning">
+    <article class="message is-warning" id="TestingWarning">
   <div class="message-header">
     <p>Warning</p>
-    <button class="delete"></button>
+    <button class="delete" onclick="closeTestingWarning()"></button>
   </div>
   <div class="message-body">
-    This website is in teting mode, so all links, buttons, and other related items will not work as it would in the final version.
+    This website is in testing mode, so all links, buttons, and other related items will not work as it would in the final version.
   </div>
 </article>
+    <script type="text/javascript">
+      function closeTestingWarning() {
+        var warning = document.getElementById("TestingWarning")
+        var op = 1;  // initial opacity
+        var timer = setInterval(function () {
+          if (op <= 0.1){
+            clearInterval(timer)
+            warning.parentNode.removeChild(warning)
+          }
+          warning.style.opacity = op
+          warning.style.filter = 'alpha(opacity=' + op * 100 + ")"
+          op -= op * 0.1
+        }, 50);
+      }
+    </script>
   </body>
 </html>
