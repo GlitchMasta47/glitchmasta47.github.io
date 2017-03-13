@@ -88,13 +88,14 @@
         var warning = document.getElementById("TestingWarning")
         var op = 1;  // initial opacity
         var timer = setInterval(function () {
-          if (op <= 0.1){
+          var speed = 0.001 // The lower this is, the more detailed the fade is but the longer it takes
+          if (op <= 0.001){
             clearInterval(timer)
             warning.parentNode.removeChild(warning)
           }
           warning.style.opacity = op
           warning.style.filter = 'alpha(opacity=' + op * 100 + ")"
-          op -= op * 0.1
+          op -= op * 0.001
         }, 50);
       }
     </script>
