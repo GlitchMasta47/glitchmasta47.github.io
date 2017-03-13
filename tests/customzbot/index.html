@@ -63,11 +63,11 @@
       <nav class="tabs">
         <div class="container">
           <ul>
-            <li class="is-active"><a><strong>Overview</strong></a></li>
-            <li><a>Commands</a></li>
-            <li><a>Dashboard</a></li>
-            <li><a>Support</a></li>
-            <li><a>Help</a></li>
+            <li id="OverviewBtn BtnActive" class="is-active"><a onclick="switchActive('Overview')"><strong>Overview</strong></a></li>
+            <li id="CommandsBtn"><a onclick="switchActive('Commands')">Commands</a></li>
+            <li id="DashboardBtn"><a onclick="switchActive('Dashboard')">Dashboard</a></li>
+            <li id="SupportBtn"><a onclick="switchActive('Support')">Support</a></li>
+            <li id="HelpBtn"><a onclick="switchActive('Help')">Help</a></li>
           </ul>
         </div>
       </nav>
@@ -96,6 +96,13 @@
           warning.style.filter = 'alpha(opacity=' + op * 100 + ")"
           op -= op * speed
         }, speed);
+      }
+      function switchActive(buttonName) {
+        var activeButton = document.getElementById("BtnActive")
+        var buttonIdName = buttonName + "Btn"
+        activeButton.childNodes[0].removeChild(activeButton.childNodes[0].childNodes[0])
+        activeButton.classList.remove("BtnActive")
+        document.getElementById(buttonIdName).classList.add("BtnActive")
       }
     </script>
   </body>
