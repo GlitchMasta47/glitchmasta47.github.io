@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+        <article class="message is-warning" id="TestingWarning">
+  <div class="message-header">
+    <p>This website is in testing mode, so all links, buttons, and other related items will not work as it would in the final version.</p>
+    <button class="delete" onclick="closeTestingWarning()"></button>
+  </div>
+</article>
     <section class="hero is-primary is-medium">
     <!-- Hero header: will stick at the top -->
     <div class="hero-head">
@@ -82,15 +88,6 @@
     </div>
   </div>
 </section>
-    <article class="message is-warning" id="TestingWarning">
-  <div class="message-header">
-    <p>Warning</p>
-    <button class="delete" onclick="closeTestingWarning()"></button>
-  </div>
-  <div class="message-body">
-    This website is in testing mode, so all links, buttons, and other related items will not work as it would in the final version.
-  </div>
-</article>
     <script type="text/javascript">
       function closeTestingWarning() {
         var warning = document.getElementById("TestingWarning")
