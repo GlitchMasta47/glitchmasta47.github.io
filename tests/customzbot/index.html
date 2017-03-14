@@ -88,9 +88,6 @@
       <h1 class="title" id="mainTitle">
         CustomzBot Overview
       </h1>
-      <h2 class="subtitle">
-        Primary subtitle
-      </h2>
     </div>
   </div>
 </section>
@@ -112,9 +109,9 @@
       function switchActive(buttonName) {
         var buttonIdName = buttonName + "Btn"
         document.getElementsByClassName("BtnActive")[0].style.fontWeight = "normal"
-        document.getElementsByClassName(buttonIdName)[0].style.fontWeight = "bold"
+        document.getElementById(buttonIdName).style.fontWeight = "bold"
         document.getElementsByClassName("BtnActive")[0].classList.remove("BtnActive")
-        document.getElementsByClassName(buttonIdName)[0].classList.add("BtnActive")
+        document.getElementById(buttonIdName).classList.add("BtnActive")
         document.getElementById("mainTitle").innerHTML = "CustomzBot " + buttonName
       }
     </script>
