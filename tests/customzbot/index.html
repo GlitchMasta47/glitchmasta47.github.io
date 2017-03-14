@@ -63,7 +63,7 @@
       <nav class="tabs">
         <div class="container">
           <ul>
-            <li id="OverviewBtn BtnActive" style="font-weight: bold;"><a onclick="switchActive('Overview')">Overview</a></li>
+            <li id="OverviewBtn" class="BtnActive" style="font-weight: bold;"><a onclick="switchActive('Overview')">Overview</a></li>
             <li id="CommandsBtn"><a onclick="switchActive('Commands')">Commands</a></li>
             <li id="DashboardBtn"><a onclick="switchActive('Dashboard')">Dashboard</a></li>
             <li id="SupportBtn"><a onclick="switchActive('Support')">Support</a></li>
@@ -99,10 +99,10 @@
       }
       function switchActive(buttonName) {
         var buttonIdName = buttonName + "Btn"
-        document.getElementById("BtnActive").style.fontWeight = "normal"
-        document.getElementById(buttonIdName).style.fontWeight = "bold"
-        document.getElementById("BtnActive").idList.remove("BtnActive")
-        document.getElementById(buttonIdName).idList.add("BtnActive")
+        document.getElementByClass("BtnActive").style.fontWeight = "normal"
+        document.getElementByClass(buttonIdName).style.fontWeight = "bold"
+        document.getElementByClass("BtnActive").classList.remove("BtnActive")
+        document.getElementByClass(buttonIdName).classList.add("BtnActive")
       }
     </script>
   </body>
