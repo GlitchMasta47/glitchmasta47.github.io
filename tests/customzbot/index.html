@@ -102,8 +102,8 @@
         var buttonIdName = buttonName + "Btn"
         activeButton.style.fontWeight = "normal"
         document.getElementById(buttonIdName).style.fontWeight = "bold"
-        activeButton.classList.remove("BtnActive")
-        document.getElementById(buttonIdName).classList.add("BtnActive")
+        activeButton.idList.remove("BtnActive")
+        document.getElementById(buttonIdName).idList.add("BtnActive")
       }
     </script>
   </body>
