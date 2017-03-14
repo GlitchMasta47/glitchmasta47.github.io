@@ -86,7 +86,7 @@
       function closeTestingWarning() {
         var warning = document.getElementById("TestingWarning")
         var op = 1;  // initial opacity
-        var speed = 0.01 // The lower this is, the more detailed the fade is. The time it takes to fade will always be 1 sec
+        var speed = 0.05 // The lower this is, the more detailed the fade is. The time it takes to fade will always be 1 sec
         var timer = setInterval(function () {
           if (op <= speed){
             clearInterval(timer)
