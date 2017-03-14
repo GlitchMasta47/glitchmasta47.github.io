@@ -85,8 +85,8 @@
     <section class="hero is-dark">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">
-        Primary title
+      <h1 class="title" id="mainTitle">
+        CustomzBot Overview
       </h1>
       <h2 class="subtitle">
         Primary subtitle
@@ -111,10 +111,11 @@
       }
       function switchActive(buttonName) {
         var buttonIdName = buttonName + "Btn"
-        document.getElementByClassName("BtnActive").style.fontWeight = "normal"
-        document.getElementByClassName(buttonIdName).style.fontWeight = "bold"
-        document.getElementByClassName("BtnActive").classList.remove("BtnActive")
-        document.getElementByClassName(buttonIdName).classList.add("BtnActive")
+        document.getElementsByClassName("BtnActive")[0].style.fontWeight = "normal"
+        document.getElementsByClassName(buttonIdName)[0].style.fontWeight = "bold"
+        document.getElementsByClassName("BtnActive")[0].classList.remove("BtnActive")
+        document.getElementsByClassName(buttonIdName)[0].classList.add("BtnActive")
+        document.getElementById("mainTitle").innerHTML = "CustomzBot " + buttonName
       }
     </script>
   </body>
