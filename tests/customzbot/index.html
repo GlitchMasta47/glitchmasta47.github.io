@@ -82,6 +82,18 @@
     This website is in testing mode, so all links, buttons, and other related items will not work as it would in the final version.
   </div>
 </article>
+    <section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Primary title
+      </h1>
+      <h2 class="subtitle">
+        Primary subtitle
+      </h2>
+    </div>
+  </div>
+</section>
     <script type="text/javascript">
       function closeTestingWarning() {
         var warning = document.getElementById("TestingWarning")
@@ -99,10 +111,10 @@
       }
       function switchActive(buttonName) {
         var buttonIdName = buttonName + "Btn"
-        document.getElementByClass("BtnActive").style.fontWeight = "normal"
-        document.getElementByClass(buttonIdName).style.fontWeight = "bold"
-        document.getElementByClass("BtnActive").classList.remove("BtnActive")
-        document.getElementByClass(buttonIdName).classList.add("BtnActive")
+        document.getElementByClassName("BtnActive").style.fontWeight = "normal"
+        document.getElementByClassName(buttonIdName).style.fontWeight = "bold"
+        document.getElementByClassName("BtnActive").classList.remove("BtnActive")
+        document.getElementByClassName(buttonIdName).classList.add("BtnActive")
       }
     </script>
   </body>
