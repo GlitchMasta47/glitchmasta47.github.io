@@ -98,11 +98,10 @@
         }, speed);
       }
       function switchActive(buttonName) {
-        var activeButton = document.getElementById("BtnActive")
         var buttonIdName = buttonName + "Btn"
-        activeButton.style.fontWeight = "normal"
+        document.getElementById("BtnActive").style.fontWeight = "normal"
         document.getElementById(buttonIdName).style.fontWeight = "bold"
-        activeButton.idList.remove("BtnActive")
+        document.getElementById("BtnActive").idList.remove("BtnActive")
         document.getElementById(buttonIdName).idList.add("BtnActive")
       }
     </script>
