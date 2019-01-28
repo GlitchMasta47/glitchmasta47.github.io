@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/glitchmasta47
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://glitchmasta47.github.io
+  * I am glitchmasta47 (https://keybase.io/glitchmasta47) on keybase.
+  * I have a public key with fingerprint 464B C937 FE05 83C0 DEAA  3E87 D670 E140 17C3 E13C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018de50246f1b1d2ce98206a8fc28aa8459042af8b2bd80549a7232a7ff486391f0a",
+      "fingerprint": "464bc937fe0583c0deaa3e87d670e14017c3e13c",
+      "host": "keybase.io",
+      "key_id": "d670e14017c3e13c",
+      "kid": "01018de50246f1b1d2ce98206a8fc28aa8459042af8b2bd80549a7232a7ff486391f0a",
+      "uid": "a7856434d020762383622dfd649faf19",
+      "username": "glitchmasta47"
+    },
+    "service": {
+      "hostname": "glitchmasta47.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1548642574,
+  "expire_in": 157680000,
+  "prev": "53aae7c7f096bcf8fdf647bb0854ca827ffa69d877997ace69d8a9113bdbaa18",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJbSBRRGF7b1mjT6sFKii6MaIWrnLmeM2sFUSB0w5esyFjOzJyzO6Uz
+28zs1iZilxcNglIQSqE7hRLd6PIQlLVUUGJ0oYIygiRKDZI0kKjOWL352Hk5t+/7
+/u/7+bP5wUA4J/XmXfC9O5SX86j7fCpQs8GcXs9ptpHhovXcDjK+kVqDuF5sh2lw
+UQ7wgEcGkYEgKZTXeEPQiYoEoGBEdQFhjCRZBZKAKdIEzUBAllQMBVHAkFIJKaLK
+U4C5CEdNK06cpGNaHpOVFEnTVRFSAmQk6sAgGIsEQUOBgPAS4KEuEl7UGTFhuz6D
+mdOwS8pNm72xS2zc3gT4/+w7NS6HIZIVSZQMIACoCCISFUEwqKFIKsWUV32gSxwL
+1xGGjteanp6ow66HJcg1RDj2lTZ14nfXjzMRrDxueomU9idf0rE9W7drGSjheUk3
+6ot4maTP2kW02F+9mGZaBusrY6SJ45q2xUV5htQ90y/AyyyIJMhQinBkd9J0SMz0
+ETJUEGDLr0PSTFIWMSZQhxSoiqZTRA2qSFDTAJIlHSOBtQQrqoEgVFWIdeKfscrz
+omZoGPOI8xPutGymrTCfOM40XTNuYS/lEK7h7p2ayYGccCA3NMkfuEB46sx/Y5jK
+Tvm1Ln/rve3LHw6svl218EzfLms4dO5WffL78aH7BzoqNh+pPdXar28rLEKPZy96
+AKr6490nVnG98U32sdezr05dow5ni8o680uEj60zNq8abXC6VuY0BoS9Lyr3lS2d
+u/bB46ujy8Lbu0bOutcST9t6xHnunJfXR65YA5mx4oLBSxdXbCTv0017InsvO91f
+S37caM5Ey45Wpn+2LIjM/7wk9/BYxbzyT9W9r0pfDj6tGGorHby2+E11/nDvYloQ
+7GzsmVTYt7/n4enGvP3dZbmHuZPts+oOOam8YMf9omlfAk/o2ZvO8/a2uF4cSV+Y
++e2t8fqg2jSjeX3xk6KWZ6EtH7IX3dBvYzFDTg==
+=k4nq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/glitchmasta47
+
+==================================================================
